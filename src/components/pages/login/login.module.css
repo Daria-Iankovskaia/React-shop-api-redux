@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    gap: 0.5rem;
+}
+
+.signInContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.signInContainer .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(255, 183, 0);
+    padding: 60px 17px;
+    border-radius: 20px;
+    min-width: 470px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.signInContainer .form h1 {
+    color: white;
+}
+
+.signInContainer .form h3 {
+    color: black;
+    font-size: 2rem;
+}
+
+.signInContainer .form input {
+    background-color: white;
+    padding: 1.3rem;
+    border-radius: 13px;
+    min-width: 300px;
+}
+
+@media(max-width: 516px) {
+    .signInContainer .form {
+        padding: 40px 8px;
+        border-radius: 15px;
+        min-width: 350px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .signInContainer .form h3 {
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .signInContainer .form input {
+
+        padding: 1rem;
+        border-radius: 8px;
+        min-width: 200px;
+    }
+}

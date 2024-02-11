@@ -1,0 +1,28 @@
+.navigation {
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 0.5rem;
+    padding: 1.3rem 4rem;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 13px;
+}
+
+.navigation.active,
+.navigation:hover {
+    background-color: rgb(242, 80, 16);
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 926px) {
+    .navigationContainer {
+        display: none;
+    }
+}
+
+@media (max-width: 1083px) {
+    .navigation {
+        font-size: 1.1rem;
+    }
+}

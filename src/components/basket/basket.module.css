@@ -1,0 +1,161 @@
+.basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(227, 240, 247);
+    min-height: 100vh;
+    padding-bottom: 100px;
+    gap: 0.5rem;
+}
+
+.basket h2 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.basket h3 {
+    font-size: 1.5rem;
+}
+
+.subtotal h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.orange {
+    color: rgb(242, 80, 16);
+}
+
+.price {
+    margin-left: 0.5rem;
+}
+
+.allProductsContainer {
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.productContainer {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 25px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.productContainer img {
+    width: 6rem;
+    height: auto;
+}
+
+.fullDescription {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.fullDescription h2 {
+    font-size: 1.5rem;
+}
+
+.fullDescription h3 {
+    font-size: 1.5rem;
+    color: rgb(242, 80, 16);
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+}
+
+.addRemoveButton {
+    padding: 0.6rem 1.2rem;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.addRemoveButton:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.proceedButton {
+    padding: 1.3rem 2rem;
+    background-color: rgb(242, 80, 16);
+    color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 12px;
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 1.1rem;
+}
+
+.proceedButton:hover {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .productContainer img {
+        width: 5rem;
+    }
+
+    .productContainer {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .fullDescription h2,
+    .fullDescription h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .productContainer img {
+        width: 4rem;
+    }
+
+    .fullDescription h2,
+    .fullDescription h3 {
+        font-size: 1.2rem;
+    }
+
+    .addRemoveButton {
+        padding: 0.6rem 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    .buttonsContainer {
+        gap: 0.4rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .productContainer img {
+        width: 3rem;
+    }
+}

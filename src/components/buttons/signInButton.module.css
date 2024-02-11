@@ -1,0 +1,13 @@
+.signinButton {
+    padding: 1.3rem 7rem;
+    background-color: rgb(227, 240, 247);
+    color: black;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 12px;
+}
+
+.signinButton:hover {
+    cursor: pointer;
+    background-color: white;
+}

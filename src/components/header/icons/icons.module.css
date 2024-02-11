@@ -1,0 +1,36 @@
+.iconsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+.icons:hover {
+    transform: rotate(45deg);
+}
+
+.iconCart {
+    width: 31px;
+    height: auto;
+}
+
+.iconUserAccount {
+    width: 26px;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.iconMenu {
+    display: none;
+}
+
+@media (max-width: 926px) {
+    .iconMenu {
+        display: inline-block;
+        width: 25px;
+        height: auto;
+        margin-right: 1rem;
+    }
+}

@@ -1,0 +1,55 @@
+h2 {
+    font-size: 2rem;
+    color: black;
+}
+
+.buttonAddToBasket {
+    padding: 1.3rem 4rem;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 12px;
+}
+
+.buttonAddToBasket:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.inBasket {
+    font-size: 2rem;
+    color: rgb(242, 80, 16);
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1.2rem;
+}
+
+@media (max-width: 926px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .buttonAddToBasket {
+        padding: 1.3rem 4rem;
+        font-size: 1.2rem;
+        border-radius: 12px;
+    }
+}
+
+@media(max-width: 525px) {
+    h2 {
+        font-size: 1rem;
+    }
+
+    .buttonWrapper {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

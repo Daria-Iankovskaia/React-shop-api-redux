@@ -1,0 +1,89 @@
+.productCard img {
+    width: 20rem;
+    height: auto;
+}
+
+.productCard {
+    background-color: white;
+    margin-bottom: 0.6rem;
+    padding: 3rem 3rem;
+    border-radius: 25px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.productDescriptionCard {
+    margin-left: 6rem;
+    color: black;
+    text-decoration: none;
+}
+
+.productDescriptionCard h2 {
+    font-size: large;
+}
+
+.productDescriptionCard h3 {
+    font-size: 2rem;
+    color: rgb(242, 80, 16);
+    margin-top: 2rem;
+}
+
+.buttonDetails {
+    padding: 1.3rem 4rem;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    border-radius: 12px;
+}
+
+.buttonDetails:hover {
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 926px) {
+    .productCard img {
+        width: 13rem;
+        height: auto;
+    }
+
+    .productCard {
+        padding: 2rem 2rem;
+        border-radius: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .buttonDetails {
+        padding: 1rem 3rem;
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+        border-radius: 10px;
+    }
+
+    .productDescriptionCard h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .productCard img {
+        width: 9rem;
+        height: auto;
+    }
+
+    .productCard {
+        padding: 1rem 1rem;
+        border-radius: 17px;
+    }
+
+    .productDescriptionCard h2 {
+        font-size: 1rem;
+    }
+}
