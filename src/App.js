@@ -2,7 +2,7 @@ import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
-import { Layout, loader as categoriesLoader } from "./components/header/Layout";
+import { Layout, loader as categoriesLoader } from "./components/layout/Layout";
 import { Electronics, loader as electronicsLoader } from "./components/pages/electronics/Electronics";
 import { ElectronicSingleProduct, loader as singleProductLoader } from "./components/pages/electronicSingleProduct/ElectronicSingleProduct";
 import { Jewelery, loader as jeweleryLoader } from "./components/pages/jewelery/Jewelery";

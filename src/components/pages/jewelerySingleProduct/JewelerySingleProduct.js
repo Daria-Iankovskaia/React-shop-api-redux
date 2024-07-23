@@ -11,9 +11,9 @@ export const JewelerySingleProduct = () => {
     </div>)
 };
 
-export async function loader(match) {
+export async function loader({ params }) {
     try {
-        const data = await getSingleProductById(match);
+        const data = await getSingleProductById(params.id);
         return data || {}
     } catch (error) {
         console.error("Error fetching electronic product data:", error);

@@ -27,7 +27,6 @@ export async function loader() {
         const data = await getProductsInCategory("electronics");
         return data || [];
     } catch (error) {
-        debugger;
         console.error("Error fetching electronics products:", error);
         throw error;
     }
