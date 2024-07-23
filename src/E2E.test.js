@@ -5,6 +5,7 @@ import App from './App';
 import store from './store/store';
 import { Provider } from 'react-redux';
 import getProductsInCategoryModule from "./components/productsAPI/getProductsInCategory";
+import { act } from 'react-dom/test-utils';
 
 jest.mock('./components/productsAPI/getProductsInCategory', () => ({
     __esModule: true, 

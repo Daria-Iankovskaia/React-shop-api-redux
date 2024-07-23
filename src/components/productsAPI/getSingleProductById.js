@@ -1,5 +1,4 @@
-function getSingleProductById(match) {
-    const { id } = match.params;
+function getSingleProductById(id) {
     return fetch(`https://fakestoreapi.com/products/${id}`)
         .then(res => {
             if (!res.ok) {

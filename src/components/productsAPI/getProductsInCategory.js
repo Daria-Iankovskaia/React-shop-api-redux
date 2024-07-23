@@ -1,5 +1,4 @@
 function getProductsInCategory(category) {
-    debugger
     return fetch(`https://fakestoreapi.com/products/category/${category}`)
         .then(res => {
             if (!res.ok) {

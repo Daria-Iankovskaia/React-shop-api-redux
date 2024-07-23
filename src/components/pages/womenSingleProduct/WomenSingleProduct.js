@@ -13,9 +13,9 @@ export const WomenSingleProduct = () => {
     )
 };
 
-export async function loader(match) {
+export async function loader({ params }) {
     try {
-        const data = getSingleProductById(match);
+        const data = getSingleProductById(params.id);
         return data || {}
     } catch (error) {
         console.error("Error fetching electronic product data:", error);
